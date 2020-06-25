@@ -63,7 +63,7 @@ A curated list of awesome FORTRAN 77 frameworks, libraries, and software.
   * [GAMS](https://gams.nist.gov/): Repository of mathematical and statistical software components of use in computational science and engineering.
   * [John Burkardt](https://people.sc.fsu.edu/~jburkardt/f77_src/f77_src.html): Collection of FORTRAN 77 software.
   * [NCAR’s Mathematical and Statistical Libraries](https://web.archive.org/web/20050211013748/http://www.scd.ucar.edu/softlib/mathlib.html): Collection of mathematical and statistical software in FORTRAN 77.
-  * [Netlib](http://www.netlib.org/): Ccollection of mathematical software.
+  * [Netlib](http://www.netlib.org/): Collection of mathematical software.
 
 ### Numerical Software
 
@@ -139,7 +139,7 @@ A curated list of awesome FORTRAN 77 frameworks, libraries, and software.
 
 ### Serialisiation
 
-  * [Harwell-Boeing](ftp://ftp.cerfacs.fr/pub/algo/matrices/harwell_boeing/): File format used to store sparse matrices.
+  * [Harwell-Boeing](https://people.sc.fsu.edu/~jburkardt/data/hb/hb.html): File format used to store sparse matrices.
 
 ### System
 
@@ -169,7 +169,7 @@ A curated list of awesome FORTRAN 77 frameworks, libraries, and software.
 ### Coding Style
 
   * [FORTRAN 77 Coding Guidelines](https://web.archive.org/web/20000530084632/http://ics.uci.edu/pub/levine/F77_Style_Guide): By David L. Levine.
-  * [Fortran Coding Style for the Modern Programmer](https://web.archive.org/web/20000421165600/http://studbolt.physast.uga.edu/templon/fortran/fortran_style)
+  * [Fortran Coding Style for the Modern Programmer](https://web.archive.org/web/20000421165600/http://studbolt.physast.uga.edu/templon/fortran/fortran_style): By Glen Reesor.
 
 ### Transition to Modern Fortran
 
