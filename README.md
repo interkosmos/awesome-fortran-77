@@ -8,7 +8,7 @@ A curated list of awesome FORTRAN 77 frameworks, libraries, and software.
     + [Commercial Compilers](#commercial-compilers)
     + [Translators](#translators)
   * [Software](#software)
-    + [Repositories & Directories](#repositories---directories)
+    + [Repositories & Directories](#repositories--directories)
     + [Numerical Software](#numerical-software)
     + [Pseudo-Random Number Generators](#pseudo-random-number-generators)
     + [Graphics, Plotting](#graphics--plotting)
@@ -19,7 +19,7 @@ A curated list of awesome FORTRAN 77 frameworks, libraries, and software.
     + [Static Code Analysis](#static-code-analysis)
   * [Benchmarks](#standards)
   * [Standards](#standards)
-  * [Editors & IDEs](#editors---ides)
+  * [Editors & IDEs](#editors--ides)
   * [Documentation, FAQs, Tutorials](#documentation--faqs--tutorials)
     + [Introduction](#introduction)
     + [Coding Style](#coding-style)
@@ -94,7 +94,7 @@ A curated list of awesome FORTRAN 77 frameworks, libraries, and software.
   * [FMM](http://www.netlib.org/fmm/index.html) – Routines from the book *Computer Methods for Mathematical Computations*, by Forsythe, Malcolm, and Moler (1977).
   * [GSLIB](http://www.statios.com/GSLIB/index.html) – Geostatistical Software Library. Collection of geostatistical programs developed at Stanford University.
   * [HSL](http://www.hsl.rl.ac.uk/archive/index.html) – Collection of FORTRAN codes for large scale scientific computation.
-  * [HSL](https://web.archive.org/web/20020820093441/http://www.cse.clrc.ac.uk/Activity/HSL) – Harwell Subroutine Library. Ccollection of ISO FORTRAN 77 subprograms for large scale scientific computation.
+  * [HSL](https://web.archive.org/web/20020820093441/http://www.cse.clrc.ac.uk/Activity/HSL) – Harwell Subroutine Library. Collection of ISO FORTRAN 77 subprograms for large scale scientific computation.
   * [IMSL](https://web.archive.org/web/20010405123018/http://www.vni.com/products/imsl/imslfort.html) – More than 900 FORTRAN 77 subroutines for use in general applied mathematics, statistical data analysis and presentation in scientific and business applications.
   * [ITPACK](http://www.netlib.org/itpack/) – Subroutines for solving large sparse linear systems by iterative methods.
   * [LAIPE](http://www.equation.com/servlet/equation.cmd?fa=laipe) – High-performance package of parallel direct solvers.
@@ -172,7 +172,7 @@ A curated list of awesome FORTRAN 77 frameworks, libraries, and software.
 ### Static Code Analysis
 
   * [FLOPPY](http://www.netlib.org/floppy/) – Software tool that takes as input a file of FORTRAN 77 code and checks it according to various “coding conventions”. FLOW produces reports based on the output of FLOPPY.
-  * [FPT](https://web.archive.org/web/20010515193039/http://www.simcon.uk.com/): Suite of tools for writing, maintaining, and migrating FORTRAN programs.
+  * [FPT](https://web.archive.org/web/20010515193039/http://www.simcon.uk.com/) – Suite of tools for writing, maintaining, and migrating FORTRAN programs.
   * [FTNCHEK](https://www.dsm.fordham.edu/~ftnchek/) – Static analyser for FORTRAN 77 programs that is designed to detect certain errors in a FORTRAN program that a compiler usually does not.
 
 ## Benchmarks
