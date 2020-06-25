@@ -7,7 +7,7 @@ A curated list of awesome FORTRAN 77 frameworks, libraries, and software.
     + [Free Compilers](#free-compilers)
     + [Commercial Compilers](#commercial-compilers)
     + [Translators](#translators)
-  * [Software](#software)
+  * [Libraries](#software)
     + [Repositories & Directories](#repositories--directories)
     + [Numerical Software](#numerical-software)
     + [Pseudo-Random Number Generators](#pseudo-random-number-generators)
@@ -15,8 +15,8 @@ A curated list of awesome FORTRAN 77 frameworks, libraries, and software.
     + [Message Passing](#message-passing)
     + [Serialisiation](#serialisiation)
     + [System](#system)
-    + [Utilities](#utilities)
-    + [Static Code Analysis](#static-code-analysis)
+  * [Utilities](#utilities)
+  * [Static Code Analysis](#static-code-analysis)
   * [Benchmarks](#standards)
   * [Standards](#standards)
   * [Editors & IDEs](#editors--ides)
@@ -49,7 +49,7 @@ A curated list of awesome FORTRAN 77 frameworks, libraries, and software.
   * [Prospero Pro Fortran-77](https://web.archive.org/web/20040415132626/http://www.prosperosoftware.com/f2iix.html) (DOS, OS/2) – FORTRAN 77 development environment that includes compiler, linker, librarian, source level debugger and IDE. The F77PC Graphics BIOS Library even provides “turtle graphics”, better known from the Logo programming language. Prospero also published FORTRAN 77 compilers for Atari ST, OS/2, and Sinclair QL. An optional DOS Extender Kit was available. The PC version was supported until 2003.
   * [Ryan-McFarland RM/FORTRAN](https://vetusware.com/download/RMFORTRAN%202.43/?id=9864) (DOS) – Supports the full ANSI FORTRAN 77 standard and includes popular extensions from VAX, VS, and FORTRAN 66. Featured code optimisation and floating-point co-processor support/emulation.
   * [Salford FTN77](https://www.silverfrost.com/53/ftn77_personal_edition.aspx) (DOS, Win32, UNIX) – The FTN77 compiler uses the Salford-developed DBOS extender. Later versions of FTN77 were ported to Win32 and UNIX. A personal edition is available free of charge.
-  * [Siemens Nixdorf SNI F77](https://web.archive.org/web/19970210142028/http://www.linuxland.de/fortran/fortran.html) (Linux) – optimised compiler for Intel 486/586/686, developed by Siemens Nixdorf Informationssysteme.
+  * [Siemens Nixdorf SNI F77](https://web.archive.org/web/19970210142028/http://www.linuxland.de/fortran/fortran.html) (Linux) – Optimised compiler for Intel 486/586/686, developed by Siemens Nixdorf Informationssysteme.
   * [Sun WorkShop Compiler FORTRAN 77](https://web.archive.org/web/19970803185812/http://www.sun.com/workshop/literature/ProductGuide/SWP.SW/PWSF_tech.html) (UNIX) – ANSI FORTRAN 77 compiler, with VMS, Cray, and MIL-STD 1753 extensions; POSIX binding; and interlanguage calling (C, C++, Pascal, Ada).
   * [The Portland Group PGF77 Workstation](https://web.archive.org/web/20000815200338/http://www.pgroup.com/prodworkpgf77.htm) (Win32, Linux, UNIX) – SMP-parallel FORTRAN 77 compiler for Intel Pentium Pro processors.
   * [Watcom FORTRAN 77](https://web.archive.org/web/19970719190132/http://www.powersoft.com/products/languages/fort77.html) (DOS, OS/2, Win16, Win32) – 32-bit protected-mode compiler that supports up to 4 GiB memory. Run-time compatible with Watcom C. Includes protected-mode version of compiler, source-level debugger, full ANSI FORTRAN 77 language support plus extensions, profiler, IBM SAA compatibility, linker, librarian, and make utility. Requires 386/486 and DOS extender. In 2003, the compiler was made available free of charage as Open Watcom.
@@ -58,6 +58,7 @@ A curated list of awesome FORTRAN 77 frameworks, libraries, and software.
 
   * [C2F](https://web.archive.org/web/20100328094906/http://home.earthlink.net/~dave_gemini/) – David Frank’s C to FORTRAN 77 translator (Win32).
   * [F2J](https://web.archive.org/web/20040220231611/http://www.npac.syr.edu/projects/pcrc/f2j.html) – FORTRAN 77-to-Java converter.
+  * [for2html](http://for2html.sourceforge.net/) – FORTRAN 77 to HTML translator.
   * [Mac F2C](https://web.archive.org/web/20040404090614/http://www.alumni.caltech.edu/~igormt/Mac_F2C.html) – Free FORTRAN-to-C translator for Mac OS.
 
 ## Software
@@ -76,16 +77,19 @@ A curated list of awesome FORTRAN 77 frameworks, libraries, and software.
   * [ALFPACK](https://web.archive.org/web/20050207230333/http://www.scd.ucar.edu/softlib/ALFPACK.html) – Legendre functions of first kind.
   * [ARPACK](https://www.caam.rice.edu/software/ARPACK/) – Collection of FORTRAN 77 subroutines designed to solve large scale eigenvalue problems.
   * [ASAD](https://web.archive.org/web/20060113132300/www.atm.ch.cam.ac.uk/acmsu/asad/index.html) – Software package developed for creating and integrating chemistry schemes in atmospheric models without the need to write any FORTRAN code to solve the chemical rate equations.
+  * [ATLAS](http://math-atlas.sourceforge.net/) – Optimised BLAS implementation.
   * [Aztec](http://www.cs.sandia.gov/CRF/aztec1.html) – An iterative sparse linear solver package.
+  * [BIFPACK](http://www.bifurcation.de/software.html) – Package for bifurcation, continuation and stability analysis.
   * [BLAS](http://www.netlib.org/blas/) – Reference implementation of the Basic Linear Algebra Subprograms.
   * [BiM](http://web.math.unifi.it/users/brugnano/BiM/index.html) – Implements a variable order-variable stepsize method for (stiff) initial value problems for ODEs.
   * [CERNLIB](https://cernlib.web.cern.ch/cernlib/) – CERN general-purpose program library.
   * [CMLIB](https://gams.nist.gov/cgi-bin/serve.cgi/Package/CMLIB/) – NIST core math library.
   * [DAEPAK](http://www.netlib.org/contin/manpak/) – Differential algebraic equations.
   * [DASPK](http://www.netlib.org/ode/) – Differential-algebraic system solver (BDF/Krylov method).
-  * [DATAPAC](https://www.nist.gov/itl/sed/datapac) – FORTRAN 77 statistical library.
+  * [DATAPAC](https://www.nist.gov/itl/sed/datapac) – FORTRAN 77 statistical library, by James Filliben (NIST).
   * [DCDFLIB](https://biostatistics.mdanderson.org/SoftwareDownload/SingleSoftware/Index/21) – Cumulative distribution functions, inverses, and parameters for common statistical distributions.
-  * [EIGENTRI](http://calgo.acm.org/) – Set of Fortran programs for reducing a nonsymmetric matrix to tridiagonal form, computing the eigenvalues of the tridiagonal matrix, improving the accuracy of an eigenvalue, and computing the corresponding eigenvector
+  * [DEGAS 2](https://w3.pppl.gov/degas2/) – Monte Carlo code for studying neutral transport in plasmas, with emphasis on fusion applications.
+  * [EIGENTRI](http://calgo.acm.org/) – Set of Fortran programs for reducing a nonsymmetric matrix to tridiagonal form, computing the eigenvalues of the tridiagonal matrix, improving the accuracy of an eigenvalue, and computing the corresponding eigenvector.
   * [EISPACK](http://www.netlib.org/eispack/) – Collection of FORTRAN 77 subroutines that compute the eigenvalues and eigenvectors. Superseded by LAPACK.
   * [Expokit](http://www.maths.uq.edu.au/expokit/) – Software package that provides matrix exponential routines for small dense or very large sparse matrices.
   * [FFTPACK](https://www2.cisl.ucar.edu/resources/legacy/fft5) – FORTRAN 77 library of fast Fourier transforms.
@@ -97,6 +101,7 @@ A curated list of awesome FORTRAN 77 frameworks, libraries, and software.
   * [HSL](https://web.archive.org/web/20020820093441/http://www.cse.clrc.ac.uk/Activity/HSL) – Harwell Subroutine Library. Collection of ISO FORTRAN 77 subprograms for large scale scientific computation.
   * [IMSL](https://web.archive.org/web/20010405123018/http://www.vni.com/products/imsl/imslfort.html) – More than 900 FORTRAN 77 subroutines for use in general applied mathematics, statistical data analysis and presentation in scientific and business applications.
   * [ITPACK](http://www.netlib.org/itpack/) – Subroutines for solving large sparse linear systems by iterative methods.
+  * [JTPACK77](https://web.archive.org/web/20140805011056/http://turner-family.com:80/John/LANL/JTpack.html) – Various FORTRAN routines, with BLAS/LAPACK-like functionality.
   * [LAIPE](http://www.equation.com/servlet/equation.cmd?fa=laipe) – High-performance package of parallel direct solvers.
   * [LANCELOT](http://www.numerical.rl.ac.uk/lancelot/lancelot.html) – Standard FORTRAN 77 package for solving large-scale nonlinearly constrained optimisation problems.
   * [LAPACK](http://www.netlib.org/lapack/) – Subroutines for solving systems of simultaneous linear equations, least-squares solutions of linear systems of equations, eigenvalue problems, and singular value problems.
@@ -123,7 +128,8 @@ A curated list of awesome FORTRAN 77 frameworks, libraries, and software.
   * [SPHEREPACK](https://web.archive.org/web/20051107222328/http://www.scd.ucar.edu/css/software/spherepack/) – Collection of FORTRAN programs that facilitates computer modeling of geophysical processes.
   * [STARPAC](https://water.usgs.gov/software/OTIS/addl/starpac/nls.html) – Time-series and regressions package.
   * [StatLib](http://ftp.uni-bayreuth.de/math/statlib/apstat/index) – Collection of algorithms published in the journal *Applied Statistics* between 1968 and 1994, mostly in FORTRAN (AS1 - AS319).
-  * [STSPACK]() – FORTRAN 77 statistical library.
+  * [STSPACK](https://www.nist.gov/itl/sed/stspac-charlie-reeve-subroutines) – FORTRAN 77 statistical library, by Charlie Reeves (NIST).
+  * [Tinker](https://dasher.wustl.edu/tinker/) – General package for molecular mechanics and dynamics, with some special features for biopolymers.
   * [TLCPACK](https://web.archive.org/web/20050309013545/http://www.scd.ucar.edu/softlib/TLCPACK.html) – Suite of FORTRAN 77 routines for interpolating values between one-, two-, three-, and four-dimensional arrays defined on uniform and nonuniform orthogonal grids.
   * [TOMS](http://www.netlib.org/toms/) – Collected algorithms of the ACM.
   * [UMFPACK](https://web.archive.org/web/20041209062517/http://www.cise.ufl.edu/research/sparse/umfpack/) – Set of routines for solving unsymmetric sparse linear systems.
@@ -151,25 +157,34 @@ A curated list of awesome FORTRAN 77 frameworks, libraries, and software.
 ### Message Passing
 
   * [F77_ZMQ](https://github.com/zeromq/f77_zmq) – ZeroMQ bindings for FORTRAN 77.
+  * [SIDL](https://computing.llnl.gov/projects/babel-high-performance-language-interoperability/#page=home) – FORTRAN 77 interface bindings to the *Scientific Interface Description Language* of the Babel middleware.
+
+### Databases
+
+  * [RIM](http://www.fortranlib.com/rim.zip) – Relational database management system, written mostly in FORTRAN 77, by Boeing, NASA, and University of Washington.
 
 ### Networks
 
+  * [AMWAVE](https://web.archive.org/web/20010804052858/http://www.fcc.gov/mmb/asd/bickel/fortran2.html) - FORTRAN 77 POST method CGI example.
   * [COLORIT](https://web.archive.org/web/20001207085100/http://www.fcc.gov/mmb/asd/bickel/fortran.html) – FORTRAN 77 GET method CGI example.
   * [FORTRAN CGI](https://www.nber.org/sys-admin/fortran-cgi/) – Native FORTRAN 77 CGI interface.
 
 ### Serialisiation
 
+  * [F77xml](https://web.archive.org/web/20051103173427/http://icbe61.unife.it:80/f77xml/) – C library designed to provide DOM parsing functionality to FORTRAN 77.
   * [Harwell-Boeing](https://people.sc.fsu.edu/~jburkardt/data/hb/hb.html) – File format used to store sparse matrices.
+  * [NetCDF](https://www.unidata.ucar.edu/software/netcdf/docs-fortran/nc_f77_interface_guide.html) – FORTRAN 77 interface to the NetCDF library.
+  * [PnetCDF](https://github.com/Parallel-NetCDF/PnetCDF) – Parallel I/O library for accessing NetCDF files.
 
 ### System
 
   * [ANSI.SYS](https://web.archive.org/web/20020604045509/http://www.ccwr.ac.za/~lynch2/ansi.sys.html) – Using the `ANSI.SYS` driver to enhance FORTRAN 77 programs (MS-DOS).
 
-### Utilities
+## Utilities
 
   * [Perl for Fortran](https://web.archive.org/web/20011004055401/https://marine.rutgers.edu/po/perl.html) – Several Perl scripts useful when working with Fortran programs.
 
-### Static Code Analysis
+## Static Code Analysis
 
   * [FLOPPY](http://www.netlib.org/floppy/) – Software tool that takes as input a file of FORTRAN 77 code and checks it according to various “coding conventions”. FLOW produces reports based on the output of FLOPPY.
   * [FPT](https://web.archive.org/web/20010515193039/http://www.simcon.uk.com/) – Suite of tools for writing, maintaining, and migrating FORTRAN programs.
@@ -177,11 +192,14 @@ A curated list of awesome FORTRAN 77 frameworks, libraries, and software.
 
 ## Benchmarks
 
+  * [Computational Fluid Dynamics Benchmark](https://web.archive.org/web/20050311034159/https://www.ec-nantes.fr/DMN/WWW/Hardware/Bench/index.html)
+  * [SPEC CPU92](https://www.spec.org/cpu92/cfp92.html) – Benchmarks designed to evaluate the floating point operations performance of a given system, by the Standard Performance Evaluation Corporation (commercial).
   * [MDBNCH](https://web.archive.org/web/20010815033640/http://www.sissa.it/furio/mdbnch.html) – Molecular dynamics benchmark.
+  * [Netlib Benchmarks](http://www.netlib.org/benchmark/) – Benchmark programs and reports.
 
 ## Standards
 
-  * [ANSI X3J3/90.4](https://web.archive.org/web/20070702014846/https://www.fortran.com/fortran/F77_std/f77_std.html) – Official FORTRAN 77 standard.
+  * [ANSI X3J3/90.4](https://web.archive.org/web/20070702014846/https://www.fortran.com/fortran/F77_std/f77_std.html) – Official FORTRAN 77 standard ([HTML format](https://web.archive.org/web/20070205092427/http://www.fortran.com/fortran/F77_std/rjcnf0001.html)).
   * [NIST FORTRAN 77 Test Suite](http://www.fortran-2000.com/ArnaudRecipes/fcvs21_f95.html) – FCVS78 validation programs by NIST Information Technology Laboratory (ITL) to check compiler conformance to the FORTRAN 77 language standard ([documentation](https://sourceryinstitute.github.io/RefactorF4Acc-test-docs/tests/NIST_F78_test_suite/fcvs21_f95/doc/index.html)).
 
 ## Editors & IDEs
@@ -224,6 +242,6 @@ A curated list of awesome FORTRAN 77 frameworks, libraries, and software.
 ## Humor
 
   * [COME FROM](http://www.fortranlib.com/gotoless.htm) – A linguistic contribution of GOTO-less programming.
-  * [Fortran Songs](http://www.poppyfields.net/filks/f.html). Singin’ and dancin’ to the joy of programming in FORTRAN.
+  * [Fortran Songs](http://www.poppyfields.net/filks/f.html) – Singin’ and dancin’ to the joy of programming in FORTRAN.
   * [Real Programmers Don’t Use PASCAL](https://web.mit.edu/humor/Computers/real.programmers) – Essay about computer programming, written by Ed Post.
 
