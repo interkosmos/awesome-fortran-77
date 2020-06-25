@@ -13,6 +13,8 @@ A curated list of awesome FORTRAN 77 frameworks, libraries, and software.
     + [Pseudo-Random Number Generators](#pseudo-random-number-generators)
     + [Graphics, Plotting](#graphics--plotting)
     + [Message Passing](#message-passing)
+    + [Databases](#databases)
+    + [CGI](#cgi)
     + [Serialisiation](#serialisiation)
     + [System](#system)
   * [Utilities](#utilities)
@@ -163,7 +165,7 @@ A curated list of awesome FORTRAN 77 frameworks, libraries, and software.
 
   * [RIM](http://www.fortranlib.com/rim.zip) – Relational database management system, written mostly in FORTRAN 77, by Boeing, NASA, and University of Washington.
 
-### Networks
+### CGI
 
   * [AMWAVE](https://web.archive.org/web/20010804052858/http://www.fcc.gov/mmb/asd/bickel/fortran2.html) - FORTRAN 77 POST method CGI example.
   * [COLORIT](https://web.archive.org/web/20001207085100/http://www.fcc.gov/mmb/asd/bickel/fortran.html) – FORTRAN 77 GET method CGI example.
