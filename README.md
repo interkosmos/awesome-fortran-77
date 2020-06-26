@@ -15,7 +15,7 @@ A curated list of awesome FORTRAN 77 frameworks, libraries, and software.
     + [Message Passing](#message-passing)
     + [Databases](#databases)
     + [CGI](#cgi)
-    + [Serialisiation](#serialisiation)
+    + [Serialisation](#serialisation)
     + [System](#system)
   * [Utilities](#utilities)
   * [Static Code Analysis](#static-code-analysis)
@@ -54,7 +54,7 @@ A curated list of awesome FORTRAN 77 frameworks, libraries, and software.
   * [Siemens Nixdorf SNI F77](https://web.archive.org/web/19970210142028/http://www.linuxland.de/fortran/fortran.html) (Linux) – Optimised compiler for Intel 486/586/686, developed by Siemens Nixdorf Informationssysteme.
   * [Sun WorkShop Compiler FORTRAN 77](https://web.archive.org/web/19970803185812/http://www.sun.com/workshop/literature/ProductGuide/SWP.SW/PWSF_tech.html) (UNIX) – ANSI FORTRAN 77 compiler, with VMS, Cray, and MIL-STD 1753 extensions; POSIX binding; and interlanguage calling (C, C++, Pascal, Ada).
   * [The Portland Group PGF77 Workstation](https://web.archive.org/web/20000815200338/http://www.pgroup.com/prodworkpgf77.htm) (Win32, Linux, UNIX) – SMP-parallel FORTRAN 77 compiler for Intel Pentium Pro processors.
-  * [Watcom FORTRAN 77](https://web.archive.org/web/19970719190132/http://www.powersoft.com/products/languages/fort77.html) (DOS, OS/2, Win16, Win32) – 32-bit protected-mode compiler that supports up to 4 GiB memory. Run-time compatible with Watcom C. Includes protected-mode version of compiler, source-level debugger, full ANSI FORTRAN 77 language support plus extensions, profiler, IBM SAA compatibility, linker, librarian, and make utility. Requires 386/486 and DOS extender. In 2003, the compiler was made available free of charage as Open Watcom.
+  * [Watcom FORTRAN 77](https://web.archive.org/web/19970719190132/http://www.powersoft.com/products/languages/fort77.html) (DOS, OS/2, Win16, Win32) – 32-bit protected-mode compiler that supports up to 4 GiB memory. Run-time compatible with Watcom C. Includes source-level debugger, full ANSI FORTRAN 77 language support plus extensions, profiler, IBM SAA compatibility, linker, librarian, and make utility. Requires 386/486 and DOS extender. In 2003, the compiler was made available free of charage as Open Watcom.
 
 ### Translators
 
@@ -100,7 +100,7 @@ A curated list of awesome FORTRAN 77 frameworks, libraries, and software.
   * [FMM](http://www.netlib.org/fmm/index.html) – Routines from the book *Computer Methods for Mathematical Computations*, by Forsythe, Malcolm, and Moler (1977).
   * [GSLIB](http://www.statios.com/GSLIB/index.html) – Geostatistical Software Library. Collection of geostatistical programs developed at Stanford University.
   * [HSL](http://www.hsl.rl.ac.uk/archive/index.html) – Collection of FORTRAN codes for large scale scientific computation.
-  * [HSL](https://web.archive.org/web/20020820093441/http://www.cse.clrc.ac.uk/Activity/HSL) – Harwell Subroutine Library. Collection of ISO FORTRAN 77 subprograms for large scale scientific computation.
+  * [HSL (Harwell Subroutine Library)](https://web.archive.org/web/20020820093441/http://www.cse.clrc.ac.uk/Activity/HSL) – Collection of ISO FORTRAN 77 subprograms for large scale scientific computation.
   * [IMSL](https://web.archive.org/web/20010405123018/http://www.vni.com/products/imsl/imslfort.html) – More than 900 FORTRAN 77 subroutines for use in general applied mathematics, statistical data analysis and presentation in scientific and business applications.
   * [ITPACK](http://www.netlib.org/itpack/) – Subroutines for solving large sparse linear systems by iterative methods.
   * [JTPACK77](https://web.archive.org/web/20140805011056/http://turner-family.com:80/John/LANL/JTpack.html) – Various FORTRAN routines, with BLAS/LAPACK-like functionality.
@@ -129,7 +129,7 @@ A curated list of awesome FORTRAN 77 frameworks, libraries, and software.
   * [SPECFUN](https://www.netlib.org/specfun/) – Library that include Bessel functions, exponential integrals, error and error-related functions, and gamma and gamma-related functions. Replaces the old AMOSLIB and FUNPACK.
   * [SPHEREPACK](https://web.archive.org/web/20051107222328/http://www.scd.ucar.edu/css/software/spherepack/) – Collection of FORTRAN programs that facilitates computer modeling of geophysical processes.
   * [STARPAC](https://water.usgs.gov/software/OTIS/addl/starpac/nls.html) – Time-series and regressions package.
-  * [StatLib](http://ftp.uni-bayreuth.de/math/statlib/apstat/index) – Collection of algorithms published in the journal *Applied Statistics* between 1968 and 1994, mostly in FORTRAN (AS1 - AS319).
+  * [StatLib](http://ftp.uni-bayreuth.de/math/statlib/apstat/index) – Collection of algorithms published in the journal *Applied Statistics* between 1968 and 1994, mostly in FORTRAN (AS1 – AS319).
   * [STSPACK](https://www.nist.gov/itl/sed/stspac-charlie-reeve-subroutines) – FORTRAN 77 statistical library, by Charlie Reeves (NIST).
   * [Tinker](https://dasher.wustl.edu/tinker/) – General package for molecular mechanics and dynamics, with some special features for biopolymers.
   * [TLCPACK](https://web.archive.org/web/20050309013545/http://www.scd.ucar.edu/softlib/TLCPACK.html) – Suite of FORTRAN 77 routines for interpolating values between one-, two-, three-, and four-dimensional arrays defined on uniform and nonuniform orthogonal grids.
@@ -171,7 +171,7 @@ A curated list of awesome FORTRAN 77 frameworks, libraries, and software.
   * [COLORIT](https://web.archive.org/web/20001207085100/http://www.fcc.gov/mmb/asd/bickel/fortran.html) – FORTRAN 77 GET method CGI example.
   * [FORTRAN CGI](https://www.nber.org/sys-admin/fortran-cgi/) – Native FORTRAN 77 CGI interface.
 
-### Serialisiation
+### Serialisation
 
   * [F77xml](https://web.archive.org/web/20051103173427/http://icbe61.unife.it:80/f77xml/) – C library designed to provide DOM parsing functionality to FORTRAN 77.
   * [Harwell-Boeing](https://people.sc.fsu.edu/~jburkardt/data/hb/hb.html) – File format used to store sparse matrices.
