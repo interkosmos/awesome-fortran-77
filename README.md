@@ -73,7 +73,7 @@ A curated list of awesome FORTRAN 77 libraries, software, and resources.
   * [GAMS](https://gams.nist.gov/) – Repository of mathematical and statistical software components of use in computational science and engineering.
   * [John Burkardt](https://people.sc.fsu.edu/~jburkardt/f77_src/f77_src.html) – Collection of FORTRAN 77 software.
   * [NCAR’s Mathematical and Statistical Libraries](https://web.archive.org/web/20050211013748/http://www.scd.ucar.edu/softlib/mathlib.html) – Collection of mathematical and statistical software in FORTRAN 77.
-  * [NSWC Library of Mathematics Subroutines](https://web.archive.org/web/20021225155121/http://www.uni-koeln.de/themen/mathematik/nswc.html) – Subroutines by the Naval Surface Warfare Center, written in FORTRAN 66.
+  * [NSWC Library of Mathematics Subroutines](https://github.com/jacobwilliams/nswc) – Subroutines by the Naval Surface Warfare Center ([description](https://apps.dtic.mil/dtic/tr/fulltext/u2/a261511.pdf)).
   * [Netlib](http://www.netlib.org/) – Collection of mathematical software.
   * [Prof. Klaus Schittkowski](https://web.archive.org/web/20130509064145/http://www.ai7.uni-bayreuth.de/software.htm) – Interactive optimization environments, nonlinear optimization solvers, least squares and data fitting solvers, and more.
   * [StatCodes](https://web.archive.org/web/20050618085504/http://www.astro.psu.edu/statcodes/) – Metasite with links to source codes implementing statistical methods which are freely available on the Internet.
@@ -251,6 +251,7 @@ A curated list of awesome FORTRAN 77 libraries, software, and resources.
   * [Conway’s Game of Life](https://github.com/owainkenwayucl/fortlife) – Simple implementation in FORTRAN 77 for DOS.
   * [LIFE_SERIAL](https://people.sc.fsu.edu/~jburkardt/f77_src/life_serial/life_serial.html) – Another implementation of Conway’s Game of Life, by John Burkardt.
   * [Empire](https://www.classicempire.com/) – Strategy and tactics war game, ported to various platforms.
+  * [Mystery Mansion](http://newton.freehostia.com/mmm/) –  Late 1970s text-based adventure computer game written by Bill Wolpert while at the Naval Undersea Warfare Center.
   * [RFK-77](http://cyber.dabamos.de/programming/fortran/rfk/) – Implementation of [robotfindskitten](http://robotfindskitten.org/) in FORTRAN 77 for 32-bit DOS.
   * [Rock, Paper, Scissors](https://craftofcoding.files.wordpress.com/2018/06/prac_fortrps.pdf) – FORTRAN 77 and Fortran 90/95 implementations.
   * [University of Toronto FORTRAN Games](http://freshmeat.sourceforge.net/projects/fortran-games) – Chess, Tic Tac Toe, Minefield, and other games, some dating back to the late 70’s.
