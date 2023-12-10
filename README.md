@@ -11,6 +11,7 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
     + [Repositories & Directories](#repositories--directories)
     + [Numerical Software](#numerical-software)
     + [Computer Science](#computer-science)
+    + [Cryptography](#cryptography)
     + [Pseudo-Random Number Generators](#pseudo-random-number-generators)
     + [Graphics, Plotting](#graphics--plotting)
     + [Message Passing](#message-passing)
@@ -38,14 +39,14 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
   * [BC-FORTRAN 77](https://ftp.sunet.se/mirror/archive/ftp.sunet.se/pub/simtelnet/msdos/fortran/bcf7713b.zip)
     (DOS) – Freeware compiler/linker, supporting the ANSI/ISO FORTRAN 77
     language standard only. Written by Andre Koestli.
-  * [f2c](http://www.netlib.org/f2c/)
-    (DOS, Win32, Linux, UNIX) – An open-source FORTRAN 77-to-C transpiler. The
-    output can be compiled with any K&R or ANSI C compiler.
+  * [DJGPP](https://www.delorie.com/djgpp/)
+    (DOS) – 32-bit C/C++ and Fortran development environment for Intel 80386 PCs
+    running DOS.
   * [g77](http://www.kilmnj.com/g77/)
     (DOS, Win32, Linux, UNIX) – The open-source FORTRAN 77 compiler of the GNU
     Compiler Collection (GCC) prior version 4.0. Has been replaced by GNU
     Fortran since then. Available for Win32 through MinGW or Cygwin.
-  * [lcc-win32](http://mermaja.act.uji.es/docencia/is37/data/LCC/LCC-Win32.html)
+  * [lcc-win32](https://web.archive.org/web/20200221163042/http://mermaja.act.uji.es/docencia/is37/data/LCC/LCC-Win32.html)
     (Win32) – C and FORTRAN development environment, by Jacob Navia.
   * [Open Watcom FORTRAN 77](http://www.openwatcom.com/)
     (DOS, OS/2, Win32, Linux) – Multi-platform open-source compiler, based on
@@ -112,11 +113,24 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
 ### Translators
 
   * [C2F](https://web.archive.org/web/20100328094906/http://home.earthlink.net/~dave_gemini/)
-    – David Frank’s C to FORTRAN 77 translator (Win32).
-  * [F2J](https://web.archive.org/web/20040220231611/http://www.npac.syr.edu/projects/pcrc/f2j.html)
+    (Win32) – David Frank’s C to FORTRAN 77 translator.
+  * [f2c](http://www.netlib.org/f2c/)
+    (DOS, Win32, Linux, UNIX) – An open-source FORTRAN 77-to-C transpiler. The
+    output can be compiled with any K&R or ANSI C compiler.
+  * [f2cl](https://github.com/rtoy/f2cl)
+    – A Fortran 77 to Common Lisp translator.
+  * [f2cpp](https://github.com/victorliu/f2cpp)
+    – Perl script to convert FORTRAN 77 to C++ (requires GNU Fortran runtime).
+  * [f2go](https://github.com/Konstantin8105/f4go)
+    – FORTRAN 77-to-Go translator.
+  * [f2j](https://www.netlib.org/java/f2j/)
     – FORTRAN 77-to-Java converter.
-  * [for2html](http://for2html.sourceforge.net/)
-    – FORTRAN 77 to HTML translator.
+  * [f2j](https://web.archive.org/web/20040220231611/http://www.npac.syr.edu/projects/pcrc/f2j.html)
+    – Another FORTRAN 77-to-Java converter of the same name.
+  * [F2perl](https://f2perl.sourceforge.net/)
+    – Perl script to translate FORTRAN 77 into Perl.
+  * [F2PY](https://numpy.org/doc/stable/f2py/)
+    – Fortran to Python interface generator.
   * [Mac F2C](https://web.archive.org/web/20040404090614/http://www.alumni.caltech.edu/~igormt/Mac_F2C.html)
     – Free FORTRAN-to-C translator for Mac OS.
 
@@ -124,7 +138,7 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
 
 ### Repositories & Directories
 
-  * [Computer Physics Communications Program Library](http://cpc01.cs.qub.ac.uk/)
+  * [Computer Physics Communications Program Library](https://www.cs.qub.ac.uk/)
     – Almost 2000 programs in computational physics and chemistry.
   * [Fast Fourier Transforms](https://web.archive.org/web/20110823110138/http://faculty.prairiestate.edu/skifowit/fft/)
     – FFT packages and routines for FORTRAN.
@@ -325,6 +339,12 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
     provides an environment (function) in which a population must evolve, by
     David L. Carroll.
 
+### Cryptography
+
+  * [Lucifer](https://github.com/interkosmos/lucifer)
+    – Implementation of Arthur Sorkin’s variant of the Lucifer block cipher, a
+    direct predecessor of DES, ported from FORTRAN IV to FORTRAN 77.
+
 ### Pseudo-Random Number Generators
 
   * [ACORN](http://acorn.wikramaratna.org/download.html)
@@ -333,10 +353,13 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
   * [Mersenne Twister](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/VERSIONS/FORTRAN/fortran.html)
     – Various adaptions of the Mersenne Twister (MT19937), collected by Makoto
     Matsumoto.
-  * [RANLIB](https://people.sc.fsu.edu/~jburkardt/f77_src/ranlib/ranlib.html)
-    – General random number generators.
   * [RANARRAY](https://www-cs-faculty.stanford.edu/~knuth/programs.html)
     – Portable random number generator.
+  * [RANLIB](https://people.sc.fsu.edu/~jburkardt/f77_src/ranlib/ranlib.html)
+    – General random number generators.
+  * [RANLUX](http://www.astro.multivax.de:8000/helbig/fortran/ranlux.html)
+    – Subtract-and-borrow random number generator proposed by Marsaglia and
+    Zaman.
   * [Using random number generators on UNIX systems](https://web.archive.org/web/20060303093233/https://www.cisl.ucar.edu/zine/96/spring/articles/3.random-6.html)
     – FORTRAN 77 adaption of the ”Integer Version 2” PRNG, originally written by
     Steven K. Park and Keith W. Miller in Pascal.
@@ -364,6 +387,8 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
     – Cross-platform software package for creating scientific plots.
   * [PSPLOT](https://web.archive.org/web/20050831063710/http://www.nova.edu/ocean/psplot.html)
     – Free Fortran-callable PostScript plotting library.
+  * [SDL 77](https://github.com/interkosmos/sdl77)
+    – FORTRAN 77 graphics and multimedia library based on SDL 1.2.
 
 ### Message Passing
 
@@ -406,6 +431,8 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
 
 ## Utilities
 
+  * [for2html](http://for2html.sourceforge.net/)
+    – FORTRAN 77 to HTML translator.
   * [Perl for Fortran](https://web.archive.org/web/20011004055401/https://marine.rutgers.edu/po/perl.html)
     – Several Perl scripts useful when working with Fortran programs.
 
@@ -441,8 +468,8 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
 ## Standards
 
   * [ANSI X3J3/90.4](https://web.archive.org/web/20070702014846/https://www.fortran.com/fortran/F77_std/f77_std.html)
-    – Official FORTRAN 77 standard ([HTML
-    format](https://web.archive.org/web/20070205092427/http://www.fortran.com/fortran/F77_std/rjcnf0001.html)).
+    – Official FORTRAN 77 standard
+    ([HTML format](https://web.archive.org/web/20070205092427/http://www.fortran.com/fortran/F77_std/rjcnf0001.html)).
   * [NIST FORTRAN 77 Test Suite](http://www.fortran-2000.com/ArnaudRecipes/fcvs21_f95.html)
     – FCVS78 validation programs by NIST Information Technology Laboratory (ITL)
     to check compiler conformance to the FORTRAN 77 language standard
@@ -486,6 +513,8 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
 
 ## Games
 
+  * [Canabis](http://trac.netlabs.org/canabis)
+    (OS/2, Win32) – Tk-based Canasta card-game in FORTRAN 77.
   * [COMEL](https://core.ac.uk/download/pdf/36712909.pdf)
     – A military communications-oriented war game, developed by the Joint
     Telecommunications Staff Officers’ Course at Keesler Air Force Base in 1983.
@@ -497,7 +526,9 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
   * [LIFE_SERIAL](https://people.sc.fsu.edu/~jburkardt/f77_src/life_serial/life_serial.html)
     – Another implementation of Conway’s Game of Life, by John Burkardt.
   * [Empire](https://www.classicempire.com/)
-    – Strategy and tactics war game, ported to various platforms.
+    – Strategy and tactics war game, ported to various platforms (FORTRAN IV).
+  * [Hunt the Wumpus](https://github.com/YeonJu/wumpus)
+    – Four implementations in FORTRAN 77, LISP, Prolog, Literate-Java.
   * [Mystery Mansion](http://newton.freehostia.com/mmm/)
     – Late 1970s text-based adventure computer game written by Bill Wolpert
     while at the Naval Undersea Warfare Center.
@@ -506,6 +537,8 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
     FORTRAN 77 for 32-bit DOS.
   * [Rock, Paper, Scissors](https://craftofcoding.files.wordpress.com/2018/06/prac_fortrps.pdf)
     – FORTRAN 77 and Fortran 90/95 implementations.
+  * [OREGON 77](http://cyber.dabamos.de/programming/fortran/oregon/)
+    – Source port of the 1978 version of The Oregon Trail to ANSI FORTRAN 77.
   * [University of Toronto FORTRAN Games](http://freshmeat.sourceforge.net/projects/fortran-games)
     – Chess, Tic Tac Toe, Minefield, and other games, some dating back to the
     late 70’s.
