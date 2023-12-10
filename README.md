@@ -109,6 +109,9 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
     IBM SAA compatibility, linker, librarian, and make utility. Requires 386/486
     and DOS extender. In 2003, the compiler was made available free of charage
     as Open Watcom.
+  * [Watcom WATFOR-77](https://archive.org/details/watcom-watfor-77)
+    (DOS) – FORTRAN 77 compiler for MS-DOS PCs with 8087/80287 floating point
+    co-processors.
 
 ### Translators
 
@@ -131,6 +134,11 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
     – Perl script to translate FORTRAN 77 into Perl.
   * [F2PY](https://numpy.org/doc/stable/f2py/)
     – Fortran to Python interface generator.
+  * [f2what](https://sourceforge.net/projects/f2what/)
+    – Project to translate algorithmic Fortran to a variety of languages (Java,
+    .NET, and VBA so far). It offers a FORTRAN 77 parser with code
+    transformations, variable disambiguation, and modular output to other
+    programming languages.
   * [Mac F2C](https://web.archive.org/web/20040404090614/http://www.alumni.caltech.edu/~igormt/Mac_F2C.html)
     – Free FORTRAN-to-C translator for Mac OS.
 
@@ -353,6 +361,9 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
   * [Mersenne Twister](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/VERSIONS/FORTRAN/fortran.html)
     – Various adaptions of the Mersenne Twister (MT19937), collected by Makoto
     Matsumoto.
+  * [Park–Miller](https://web.archive.org/web/20060303093233/https://www.cisl.ucar.edu/zine/96/spring/articles/3.random-6.html)
+    – FORTRAN 77 adaption of the “Integer Version 2” PRNG, originally written by
+    Steven K. Park and Keith W. Miller in Pascal.
   * [RANARRAY](https://www-cs-faculty.stanford.edu/~knuth/programs.html)
     – Portable random number generator.
   * [RANLIB](https://people.sc.fsu.edu/~jburkardt/f77_src/ranlib/ranlib.html)
@@ -360,9 +371,6 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
   * [RANLUX](http://www.astro.multivax.de:8000/helbig/fortran/ranlux.html)
     – Subtract-and-borrow random number generator proposed by Marsaglia and
     Zaman.
-  * [Using random number generators on UNIX systems](https://web.archive.org/web/20060303093233/https://www.cisl.ucar.edu/zine/96/spring/articles/3.random-6.html)
-    – FORTRAN 77 adaption of the ”Integer Version 2” PRNG, originally written by
-    Steven K. Park and Keith W. Miller in Pascal.
 
 ### Graphics, Plotting
 
@@ -389,6 +397,8 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
     – Free Fortran-callable PostScript plotting library.
   * [SDL 77](https://github.com/interkosmos/sdl77)
     – FORTRAN 77 graphics and multimedia library based on SDL 1.2.
+  * [ThanCad Fortran Dxf Library](https://sourceforge.net/projects/thandxflib/)
+    – FORTRAN 77 library to create DXF drawings.
 
 ### Message Passing
 
@@ -431,6 +441,9 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
 
 ## Utilities
 
+  * [findent](https://sourceforge.net/projects/findent/)
+    – Indents, beautifies and relabels Fortran source, fixed and free format,
+    and converts fixed format to free format (and vice-versa).
   * [for2html](http://for2html.sourceforge.net/)
     – FORTRAN 77 to HTML translator.
   * [Perl for Fortran](https://web.archive.org/web/20011004055401/https://marine.rutgers.edu/po/perl.html)
@@ -478,7 +491,9 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
 ## Editors & IDEs
 
   * [VFort](https://web.archive.org/web/20080417003319/http://www.imamod.ru/~vab/vfort/)
-    – Programmer-oriented text editor, with g77 (Win32).
+    – (Win32) Programmer-oriented text editor, with g77.
+  * [Yapakit](https://web.archive.org/web/20181107031816/http://yapakit.fortran.pagesperso-orange.fr/)
+    – (Win32) Free Fortran source code editor.
 
 ## Documentation, FAQs, Tutorials
 
@@ -532,16 +547,18 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
   * [Mystery Mansion](http://newton.freehostia.com/mmm/)
     – Late 1970s text-based adventure computer game written by Bill Wolpert
     while at the Naval Undersea Warfare Center.
-  * [RFK-77](http://cyber.dabamos.de/programming/fortran/rfk/)
-    – Implementation of [robotfindskitten](http://robotfindskitten.org/) in
-    FORTRAN 77 for 32-bit DOS.
-  * [Rock, Paper, Scissors](https://craftofcoding.files.wordpress.com/2018/06/prac_fortrps.pdf)
-    – FORTRAN 77 and Fortran 90/95 implementations.
   * [OREGON 77](http://cyber.dabamos.de/programming/fortran/oregon/)
     – Source port of the 1978 version of The Oregon Trail to ANSI FORTRAN 77.
+  * [RFK-77](http://cyber.dabamos.de/programming/fortran/rfk/)
+    (DOS) – Implementation of [robotfindskitten](http://robotfindskitten.org/)
+    in FORTRAN 77.
+  * [Rock, Paper, Scissors](https://craftofcoding.files.wordpress.com/2018/06/prac_fortrps.pdf)
+    – FORTRAN 77 and Fortran 90/95 implementations.
   * [University of Toronto FORTRAN Games](http://freshmeat.sourceforge.net/projects/fortran-games)
     – Chess, Tic Tac Toe, Minefield, and other games, some dating back to the
     late 70’s.
+  * [TREK 7](https://sourceforge.net/projects/trek7/)
+    – Original multiplayer network Star Trek game from the early-mid 70s.
 
 ## Humor
 
