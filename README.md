@@ -1,4 +1,5 @@
 # Awesome FORTRAN 77 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
 A curated list of awesome FORTRAN 77 libraries, tools, and resources.
 
 ## Contents
@@ -491,9 +492,9 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
 ## Editors & IDEs
 
   * [VFort](https://web.archive.org/web/20080417003319/http://www.imamod.ru/~vab/vfort/)
-    – (Win32) Programmer-oriented text editor, with g77.
+    (Win32) – Programmer-oriented text editor, with g77.
   * [Yapakit](https://web.archive.org/web/20181107031816/http://yapakit.fortran.pagesperso-orange.fr/)
-    – (Win32) Free Fortran source code editor.
+    (Win32) – Free Fortran source code editor.
 
 ## Documentation, FAQs, Tutorials
 
@@ -503,8 +504,8 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
     – Frequently Asked Questions, compiled by Keith H. Bierman.
   * [Professional Programmer’s Guide to FORTRAN 77](https://www.tat.physik.uni-tuebingen.de/~kley/lehre/ftn77/f77prof.pdf)
     – Introduction by Clive G. Page.
-  * [User Notes on Fortran Programming](http://www.ibiblio.org/pub/languages/fortran/) (UNFP) –
-    An open cooperative practical guide.
+  * [User Notes on Fortran Programming (UNFP)](http://www.ibiblio.org/pub/languages/fortran/)
+    – An open cooperative practical guide.
 
 ### Coding Style
 
