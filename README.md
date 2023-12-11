@@ -8,9 +8,11 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
     + [Free Compilers](#free-compilers)
     + [Commercial Compilers](#commercial-compilers)
     + [Translators](#translators)
-  * [Software](#software)
+    + [Pre-Processors](#pre-processors)
+    + [Code Generators](#code-generators)
+  * [Codes](#codes)
     + [Repositories & Directories](#repositories--directories)
-    + [Numerical Software](#numerical-software)
+    + [Numerical Codes](#numerical-codes)
     + [Computer Science](#computer-science)
     + [Cryptography](#cryptography)
     + [Pseudo-Random Number Generators](#pseudo-random-number-generators)
@@ -21,13 +23,14 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
     + [Serialisation](#serialisation)
     + [System](#system)
   * [Utilities](#utilities)
+  * [Source Code Documentation](#source-code-documentation)
   * [Static Code Analysis](#static-code-analysis)
   * [Benchmarks](#standards)
-  * [Standards](#standards)
   * [Editors & IDEs](#editors--ides)
-  * [Documentation, FAQs, Tutorials](#documentation--faqs--tutorials)
+  * [Language, FAQs, Tutorials](#language--faqs--tutorials)
     + [Introduction](#introduction)
     + [Coding Style](#coding-style)
+    + [Standards](#standards)
     + [Transition to Modern Fortran](#transition-to-modern-fortran)
   * [Free Books](#free-books)
   * [Games](#games)
@@ -122,7 +125,7 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
     (DOS, Win32, Linux, UNIX) – An open-source FORTRAN 77-to-C transpiler. The
     output can be compiled with any K&R or ANSI C compiler.
   * [f2cl](https://github.com/rtoy/f2cl)
-    – A Fortran 77 to Common Lisp translator.
+    – A FORTRAN 77 to Common Lisp translator.
   * [f2cpp](https://github.com/victorliu/f2cpp)
     – Perl script to convert FORTRAN 77 to C++ (requires GNU Fortran runtime).
   * [f2go](https://github.com/Konstantin8105/f4go)
@@ -140,10 +143,24 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
     .NET, and VBA so far). It offers a FORTRAN 77 parser with code
     transformations, variable disambiguation, and modular output to other
     programming languages.
+  * [ForToPas](https://sourceforge.net/projects/fortran2pascal/)
+    – A Fortran to Pascal (Delphi) converter.
   * [Mac F2C](https://web.archive.org/web/20040404090614/http://www.alumni.caltech.edu/~igormt/Mac_F2C.html)
     – Free FORTRAN-to-C translator for Mac OS.
 
-## Software
+## Pre-Processors
+
+  * [Ratfor](https://github.com/slattarini/ratfor)
+    – Translates programs written in the Ratfor language into FORTRAN 77
+    programs. Originally developed by B. Kernighan and P. J. Plauger.
+
+## Code Generators
+
+  * [avr-gfortran](https://sourceforge.net/projects/avr-gfortran/)
+    – Pseudo-FORTRAN 77 compiler for Atmel AVR microcontrollers, written in
+    Fortran using GNU Fortran.
+
+## Codes
 
 ### Repositories & Directories
 
@@ -155,7 +172,8 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
     – Repository of mathematical and statistical software components of use in
     computational science and engineering.
   * [John Burkardt](https://people.sc.fsu.edu/~jburkardt/f77_src/f77_src.html)
-    – Collection of FORTRAN 77 software.
+    – Collection of FORTRAN 77 software
+    ([GitHub](https://github.com/johannesgerer/jburkardt-f77)).
   * [NCAR’s Mathematical and Statistical Libraries](https://web.archive.org/web/20050211013748/http://www.scd.ucar.edu/softlib/mathlib.html)
     – Collection of mathematical and statistical software in FORTRAN 77.
   * [NSWC Library of Mathematics Subroutines](https://github.com/jacobwilliams/nswc)
@@ -170,7 +188,7 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
     – Metasite with links to source codes implementing statistical methods which
     are freely available on the Internet.
 
-### Numerical Software
+### Numerical Codes
 
   * [ADIFOR](https://www.mcs.anl.gov/research/projects/adifor/)
     – Automatic differentiation of FORTRAN 77 programs.
@@ -210,6 +228,8 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
   * [DEGAS 2](https://w3.pppl.gov/degas2/)
     – Monte Carlo code for studying neutral transport in plasmas, with emphasis
     on fusion applications.
+  * [Efficient sorting routines in FORTRAN 77](https://github.com/ivan-pi/hs-sort)
+    – Sorting routines in FORTRAN 77 by G. T. Houlsby and S. W. Sloan.
   * [EIGENTRI](http://calgo.acm.org/)
     – Set of Fortran programs for reducing a nonsymmetric matrix to tridiagonal
     form, computing the eigenvalues of the tridiagonal matrix, improving the
@@ -232,6 +252,8 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
   * [FMM](http://www.netlib.org/fmm/index.html)
     – Routines from the book *Computer Methods for Mathematical Computations*,
     by Forsythe, Malcolm, and Moler (1977).
+  * [GeographicLib](https://geographiclib.sourceforge.io/Fortran/doc/index.html)
+    – Geodesic routines implemented in FORTRAN 77.
   * [GSLIB](http://www.statios.com/GSLIB/index.html)
     – Geostatistical Software Library. Collection of geostatistical programs
     developed at Stanford University.
@@ -244,6 +266,10 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
     – More than 900 FORTRAN 77 subroutines for use in general applied
     mathematics, statistical data analysis and presentation in scientific and
     business applications (commercial).
+  * [IRBEM-LIB](https://github.com/PRBEM/IRBEM)
+    – Provides routines to compute magnetic coordinates for any location in the
+    Earth’s magnetic field, to perform coordinate conversions, to evaluate
+    geophysics/space-physics models, and to propagate orbits in time.
   * [ITPACK](http://www.netlib.org/itpack/)
     – Subroutines for solving large sparse linear systems by iterative methods.
   * [JTPACK77](https://web.archive.org/web/20140805011056/http://turner-family.com:80/John/LANL/JTpack.html)
@@ -350,6 +376,8 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
 
 ### Cryptography
 
+  * [Fortran77-Enigma](https://github.com/barrettotte/Fortran77-Enigma)
+    – Enigma machine emulator in FORTRAN 77.
   * [Lucifer](https://github.com/interkosmos/lucifer)
     – Implementation of Arthur Sorkin’s variant of the Lucifer block cipher, a
     direct predecessor of DES, ported from FORTRAN IV to FORTRAN 77.
@@ -375,6 +403,8 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
 
 ### Graphics, Plotting
 
+  * [Accis](https://github.com/ihutch/accis)
+    – Plotting routines for Fortran, by Ian Hutchinson.
   * [DISLIN](http://www.dislin.de/)
     – High-level scientific plotting library. Free for non-commercial use.
   * [DRAWCGM](https://web.archive.org/web/20050418002941/http://www.psc.edu/general/software/packages/drawcgm/drawcgm.html)
@@ -388,6 +418,10 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
     – Library of interactive graphics routines for UNIX.
   * [moriplot](https://web.archive.org/web/19970727210155/http://phase.etl.go.jp/contrib/moriplot/)
     – Plotting program for Sun OS 1.4.2, by Masatake Mori.
+  * [OzAPI](https://sourceforge.net/projects/ozapi-tcl-tk/)
+    – Enables user interfaces to be developed and graphics output to be designed
+    for FORTRAN and C programs using Tcl/Tk libraries. Includes example program
+    in FORTRAN.
   * [PBMA_IO](https://people.sc.fsu.edu/~jburkardt/f_src/pbma_io/pbma_io.html)
     – Read and write utilities for Portable Bit Map (PBM) files.
   * [PGPLOT](https://www.astro.caltech.edu/~tjp/pgplot/)
@@ -450,6 +484,12 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
   * [Perl for Fortran](https://web.archive.org/web/20011004055401/https://marine.rutgers.edu/po/perl.html)
     – Several Perl scripts useful when working with Fortran programs.
 
+## Source Code Documentation
+
+  * [ROBODoc](https://rfsber.home.xs4all.nl/Robo/index.html)
+    – Documentation tool that extracts the documentation from your source code
+    and formats it in HTML, RTF, TeX, XML DocBook (PDF), or ASCII.
+
 ## Static Code Analysis
 
   * [FLOPPY](http://www.netlib.org/floppy/)
@@ -479,16 +519,6 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
   * [Netlib Benchmarks](http://www.netlib.org/benchmark/)
     – Benchmark programs and reports.
 
-## Standards
-
-  * [ANSI X3J3/90.4](https://web.archive.org/web/20070702014846/https://www.fortran.com/fortran/F77_std/f77_std.html)
-    – Official FORTRAN 77 standard
-    ([HTML format](https://web.archive.org/web/20070205092427/http://www.fortran.com/fortran/F77_std/rjcnf0001.html)).
-  * [NIST FORTRAN 77 Test Suite](http://www.fortran-2000.com/ArnaudRecipes/fcvs21_f95.html)
-    – FCVS78 validation programs by NIST Information Technology Laboratory (ITL)
-    to check compiler conformance to the FORTRAN 77 language standard
-    ([documentation](https://sourceryinstitute.github.io/RefactorF4Acc-test-docs/tests/NIST_F78_test_suite/fcvs21_f95/doc/index.html)).
-
 ## Editors & IDEs
 
   * [VFort](https://web.archive.org/web/20080417003319/http://www.imamod.ru/~vab/vfort/)
@@ -496,7 +526,7 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
   * [Yapakit](https://web.archive.org/web/20181107031816/http://yapakit.fortran.pagesperso-orange.fr/)
     (Win32) – Free Fortran source code editor.
 
-## Documentation, FAQs, Tutorials
+## Language, FAQs, Tutorials
 
 ### Introduction
 
@@ -513,6 +543,16 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
     – By David L. Levine.
   * [Fortran Coding Style for the Modern Programmer](https://web.archive.org/web/20000421165600/http://studbolt.physast.uga.edu/templon/fortran/fortran_style)
     – By Glen Reesor.
+
+### Standards
+
+  * [ANSI X3J3/90.4](https://web.archive.org/web/20070702014846/https://www.fortran.com/fortran/F77_std/f77_std.html)
+    – Official FORTRAN 77 standard
+    ([HTML format](https://web.archive.org/web/20070205092427/http://www.fortran.com/fortran/F77_std/rjcnf0001.html)).
+  * [NIST FORTRAN 77 Test Suite](http://www.fortran-2000.com/ArnaudRecipes/fcvs21_f95.html)
+    – FCVS78 validation programs by NIST Information Technology Laboratory (ITL)
+    to check compiler conformance to the FORTRAN 77 language standard
+    ([documentation](https://sourceryinstitute.github.io/RefactorF4Acc-test-docs/tests/NIST_F78_test_suite/fcvs21_f95/doc/index.html)).
 
 ### Transition to Modern Fortran
 
