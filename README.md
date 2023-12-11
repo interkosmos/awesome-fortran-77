@@ -16,7 +16,7 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
     + [Computer Science](#computer-science)
     + [Cryptography](#cryptography)
     + [Pseudo-Random Number Generators](#pseudo-random-number-generators)
-    + [Graphics, Plotting](#graphics-plotting)
+    + [Graphics, Plotting, User Interfaces](#graphics-plotting-user-interfaces)
     + [Message Passing](#message-passing)
     + [Databases](#databases)
     + [CGI](#cgi)
@@ -124,6 +124,8 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
   * [f2c](http://www.netlib.org/f2c/)
     (DOS, Win32, Linux, UNIX) – An open-source FORTRAN 77-to-C transpiler. The
     output can be compiled with any K&R or ANSI C compiler.
+    [Mac F2C](https://web.archive.org/web/20040404090614/http://www.alumni.caltech.edu/~igormt/Mac_F2C.html)
+    is a version for Mac OS.
   * [f2cl](https://github.com/rtoy/f2cl)
     – A FORTRAN 77 to Common Lisp translator.
   * [f2cpp](https://github.com/victorliu/f2cpp)
@@ -145,8 +147,6 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
     programming languages.
   * [ForToPas](https://sourceforge.net/projects/fortran2pascal/)
     – A Fortran to Pascal (Delphi) converter.
-  * [Mac F2C](https://web.archive.org/web/20040404090614/http://www.alumni.caltech.edu/~igormt/Mac_F2C.html)
-    – Free FORTRAN-to-C translator for Mac OS.
 
 ## Pre-Processors
 
@@ -197,6 +197,8 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
   * [ARPACK](https://www.caam.rice.edu/software/ARPACK/)
     – Collection of FORTRAN 77 subroutines designed to solve large scale
     eigenvalue problems.
+  * [ARPACK-NG](https://github.com/opencollab/arpack-ng)
+    – Replacement of ARPACK.
   * [ASAD](https://web.archive.org/web/20060113132300/www.atm.ch.cam.ac.uk/acmsu/asad/index.html)
     – Software package developed for creating and integrating chemistry schemes
     in atmospheric models without the need to write any FORTRAN code to solve
@@ -214,6 +216,9 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
     value problems for ODEs.
   * [CERNLIB](https://cernlib.web.cern.ch/cernlib/)
     – CERN general-purpose program library.
+  * [CHOL-REV](https://github.com/imurray/chol-rev)
+    – Reverse-mode routine written in FORTRAN 77 which uses blocked level-3
+    BLAS routines.
   * [CMLIB](https://gams.nist.gov/cgi-bin/serve.cgi/Package/CMLIB/)
     – NIST core math library.
   * [DAEPAK](http://www.netlib.org/contin/manpak/)
@@ -257,6 +262,8 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
   * [GSLIB](http://www.statios.com/GSLIB/index.html)
     – Geostatistical Software Library. Collection of geostatistical programs
     developed at Stanford University.
+  * [GWMFE](https://github.com/mfeproject/legacy-gwmfe)
+    – 1D and 2D gradient-weighted moving finite element codes.
   * [HSL](http://www.hsl.rl.ac.uk/archive/index.html)
     – Collection of FORTRAN codes for large scale scientific computation.
   * [HSL (Harwell Subroutine Library)](https://web.archive.org/web/20020820093441/http://www.cse.clrc.ac.uk/Activity/HSL)
@@ -352,6 +359,9 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
     between 1968 and 1994, mostly in FORTRAN (AS1 – AS319).
   * [STSPACK](https://www.nist.gov/itl/sed/stspac-charlie-reeve-subroutines)
     – FORTRAN 77 statistical library, by Charlie Reeves (NIST).
+  * [Timeslap](https://github.com/Beliavsky/Timeslab)
+    – Time series analysis package by H. Joseph Newton to accompany his book
+    “Timeslab: A Time Series Analysis Laboratory” (1988).
   * [Tinker](https://dasher.wustl.edu/tinker/)
     – General package for molecular mechanics and dynamics, with some special
     features for biopolymers.
@@ -361,6 +371,9 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
     orthogonal grids.
   * [TOMS](http://www.netlib.org/toms/)
     – Collected algorithms of the ACM.
+  * [TRNFSP3N](https://github.com/Geo-Linux-Calculations/trnfsp3n)
+    – FORTRAN 77 source code for transforming GPS orbit files in SP3 format
+    between different realisations of ITRFs.
   * [UMFPACK](https://web.archive.org/web/20041209062517/http://www.cise.ufl.edu/research/sparse/umfpack/)
     – Set of routines for solving unsymmetric sparse linear systems.
   * [WSMP](https://researcher.watson.ibm.com/researcher/view_group.php?id=1426)
@@ -401,17 +414,21 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
     – Subtract-and-borrow random number generator proposed by Marsaglia and
     Zaman.
 
-### Graphics, Plotting
+### Graphics, Plotting, User Interfaces
 
   * [Accis](https://github.com/ihutch/accis)
     – Plotting routines for Fortran, by Ian Hutchinson.
   * [DISLIN](http://www.dislin.de/)
-    – High-level scientific plotting library. Free for non-commercial use.
+    – Free high-level scientific plotting library.
   * [DRAWCGM](https://web.archive.org/web/20050418002941/http://www.psc.edu/general/software/packages/drawcgm/drawcgm.html)
     – Package of FORTRAN and C routines which can be used to create CGM
     metafiles.
   * [EGGX/ProCALL](https://www.ir.isas.jaxa.jp/~cyamauch/eggx_procall/)
     – X11 graphics library for C and FORTRAN.
+  * [Fastgraph](http://www.fastgraph.com/)
+    (DOS, Win32) – Proprietary graphics library for DOS and Windows
+    ([version 3.0.3](https://archive.org/details/blobby03_cracked)). Requires
+    Microsoft FORTRAN compiler.
   * [GGG](http://www.unige.ch/~hairer/GGGraphics.html)
     – Geneva Group Graphics library for FORTRAN and LaTeX.
   * [GRAFIC](https://web.archive.org/web/20021204062152/http://www.physics.ohio-state.edu/~koepf/grafic.html)
@@ -476,16 +493,24 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
 
 ## Utilities
 
+  * [f2f90](https://github.com/btrettel/f2f90)
+    – Utility to convert FORTRAN 77 fixed source form to Fortran 90 free source
+    form, by Michael Metcalf, Peter A. Rochford, Ben Trettel.
+  * [ffixed2free](https://github.com/MeteoSwiss/ffixed2free)
+    – Converts FORTRAN fixed-format source code to free-format source code, by
+    Pirmin Kaufmann and Martin Schraner.
   * [findent](https://sourceforge.net/projects/findent/)
     – Indents, beautifies and relabels Fortran source, fixed and free format,
     and converts fixed format to free format (and vice-versa).
-  * [for2html](http://for2html.sourceforge.net/)
-    – FORTRAN 77 to HTML translator.
   * [Perl for Fortran](https://web.archive.org/web/20011004055401/https://marine.rutgers.edu/po/perl.html)
     – Several Perl scripts useful when working with Fortran programs.
+  * [to_f90](https://github.com/jbdv-no/to_f90)
+    – Tool to convert FORTRAN 77 code to free-form code, by Alan Miller.
 
 ## Source Code Documentation
 
+  * [for2html](http://for2html.sourceforge.net/)
+    – FORTRAN 77 to HTML translator.
   * [ROBODoc](https://rfsber.home.xs4all.nl/Robo/index.html)
     – Documentation tool that extracts the documentation from your source code
     and formats it in HTML, RTF, TeX, XML DocBook (PDF), or ASCII.
@@ -509,7 +534,7 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
 
 ## Benchmarks
 
-  * [Computational Fluid Dynamics Benchmark](https://web.archive.org/web/20050311034159/https://www.ec-nantes.fr/DMN/WWW/Hardware/Bench/index.html)
+  * [Computational Fluid Dynamics Benchmark](https://web.archive.org/web/20050311034159/https://www.ec-nantes.fr/DMN/WWW/Hardware/Bench/index.html).
   * [SPEC CPU92](https://www.spec.org/cpu92/cfp92.html)
     – Benchmarks designed to evaluate the floating point operations performance
     of a given system, by the Standard Performance Evaluation Corporation
@@ -556,8 +581,10 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
 
 ### Transition to Modern Fortran
 
-  * [Fortran 90 for the FORTRAN 77 Programmer](https://www.nsc.liu.se/~boein/f77to90/f77to90.html)
-  * [Fortran 95 for the FORTRAN 77 Programmer](https://web.archive.org/web/20080123082959/http://www.soks.org/view/Fortran95ForFortran77Programmers)
+  * [Fortran 90 for the FORTRAN 77 Programmer](https://www.nsc.liu.se/~boein/f77to90/f77to90.html).
+  * [Fortran 95 for the FORTRAN 77 Programmer](https://web.archive.org/web/20080123082959/http://www.soks.org/view/Fortran95ForFortran77Programmers).
+  * [Rocket Science](https://github.com/everythingfunctional/rocket-science)
+    – A case study in modernising legacy Fortran software.
 
 ## Free Books
 
@@ -583,6 +610,8 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
     – Another implementation of Conway’s Game of Life, by John Burkardt.
   * [Empire](https://www.classicempire.com/)
     – Strategy and tactics war game, ported to various platforms (FORTRAN IV).
+  * [fortlife](https://github.com/owainkenwayucl/fortlife)
+    – Conway’s Game of Life in FORTRAN 77 for FreeDOS.
   * [Hunt the Wumpus](https://github.com/YeonJu/wumpus)
     – Four implementations in FORTRAN 77, LISP, Prolog, Literate-Java.
   * [Mystery Mansion](http://newton.freehostia.com/mmm/)
