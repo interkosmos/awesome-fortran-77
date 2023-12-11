@@ -610,8 +610,6 @@ A curated list of awesome FORTRAN 77 libraries, tools, and resources.
     – Another implementation of Conway’s Game of Life, by John Burkardt.
   * [Empire](https://www.classicempire.com/)
     – Strategy and tactics war game, ported to various platforms (FORTRAN IV).
-  * [fortlife](https://github.com/owainkenwayucl/fortlife)
-    – Conway’s Game of Life in FORTRAN 77 for FreeDOS.
   * [Hunt the Wumpus](https://github.com/YeonJu/wumpus)
     – Four implementations in FORTRAN 77, LISP, Prolog, Literate-Java.
   * [Mystery Mansion](http://newton.freehostia.com/mmm/)
